@@ -17,14 +17,13 @@ Basics/
 ├── Chapter_02_Javascript_Concepts/
 │   ├── 05_JS_Basics.js           # var re-assignment
 │   ├── 06_Identifier_Rules.js    # Valid & invalid identifier examples
-│   ├── 07_Identifier_Part2.js    # Naming conventions: camelCase, PascalCase, snake_case, etc.
+│   ├── 07_Identifier_Part2.js  # Naming conventions: camelCase, PascalCase, snake_case, etc.
 │   ├── 08_Comments.js            # Single-line & multi-line comments
 │   ├── Identifier_Rules_Examples.js  # Runnable identifier rule demonstrations
 │   └── VS_Code_Keyshortcut.md    # Visual Studio Code Windows shortcuts
 │
 └── Chapter_03_Identifier_literals/
-    ├── 07_Identifier_Rules_Examples.js  # Complete identifier rules with output
-    └── 07_identifier_part2.js           # Naming conventions deep dive
+    # (Reserved for future examples on literals and advanced identifiers)
 ```
 
 ---
@@ -37,6 +36,8 @@ Basics/
 ### Run a File
 ```bash
 node Chapter_01_basics/01_Basics.js
+node Chapter_02_Javascript_Concepts/06_Identifier_Rules.js
+node Chapter_02_Javascript_Concepts/Identifier_Rules_Examples.js
 ```
 
 ---
@@ -63,11 +64,28 @@ node Chapter_01_basics/01_Basics.js
 - Comments: `//` and `/* */`
 - VS Code Keyboard Shortcuts for Windows
 
-### Chapter 3: Identifier & Literals
+### Chapter 3: Identifier & Literals (Coming Soon)
 - Runnable examples demonstrating every identifier rule
 - Case-sensitive variable names
 - Unicode support in identifiers
 - Best practices summary
+
+---
+
+## Topics Covered
+
+| Topic | File |
+|-------|------|
+| Hello World & Variables | `Chapter_01_basics/01_Basics.js` |
+| Loops & Functions | `Chapter_01_basics/02_Js.js` |
+| Node.js Environment Check | `Chapter_01_basics/03_Js_Verify_Setup.js` |
+| Hot Code / Performance | `Chapter_01_basics/04_Hotcode.js` |
+| var vs let Basics | `Chapter_02_Javascript_Concepts/05_JS_Basics.js` |
+| Identifier Rules | `Chapter_02_Javascript_Concepts/06_Identifier_Rules.js` |
+| Naming Conventions | `Chapter_02_Javascript_Concepts/07_Identifier_Part2.js` |
+| Comments | `Chapter_02_Javascript_Concepts/08_Comments.js` |
+| Runnable Examples | `Chapter_02_Javascript_Concepts/Identifier_Rules_Examples.js` |
+| VS Code Shortcuts | `Chapter_02_Javascript_Concepts/VS_Code_Keyshortcut.md` |
 
 ---
 
