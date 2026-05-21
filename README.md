@@ -17,13 +17,36 @@ Basics/
 ├── Chapter_02_Javascript_Concepts/
 │   ├── 05_JS_Basics.js           # var re-assignment
 │   ├── 06_Identifier_Rules.js    # Valid & invalid identifier examples
-│   ├── 07_Identifier_Part2.js  # Naming conventions: camelCase, PascalCase, snake_case, etc.
+│   ├── 07_Identifier_Part2.js    # Naming conventions: camelCase, PascalCase, snake_case, etc.
 │   ├── 08_Comments.js            # Single-line & multi-line comments
 │   ├── Identifier_Rules_Examples.js  # Runnable identifier rule demonstrations
 │   └── VS_Code_Keyshortcut.md    # Visual Studio Code Windows shortcuts
 │
-└── Chapter_03_Identifier_literals/
-    # (Reserved for future examples on literals and advanced identifiers)
+├── Chapter_04_Javascript_Concepts/
+│   ├── 09_var_let_const.js       # var, let, const basics
+│   ├── 10_Functions.js           # Function examples
+│   ├── 11_var_Explained.js       # Detailed var explanation
+│   ├── 12_Let_People_Love.js     # let usage examples
+│   ├── 13_Const_explained.js     # const explained
+│   ├── 14_var_functionscope.js   # var function scope
+│   ├── 15_Let_scope.js           # let scope
+│   ├── 16_Hoisting.js            # Hoisting basics
+│   ├── 17_Hoisting_fn.js         # Function hoisting
+│   ├── 18_let_hoisting.js        # let hoisting
+│   ├── 19_Let_Hoisting_block.js  # let hoisting in blocks
+│   ├── 20_let_const.js           # let vs const
+│   ├── 21_Jr_Qa.js               # Junior QA exercise
+│   └── 11thMay_Task.md           # Task file (11 May)
+│
+└── Chapter_05_literals/
+    ├── 22_literals.js            # Literals basics
+    ├── 23_null_undefined.js      # null vs undefined
+    ├── 24_null.js                # null deep dive
+    ├── 25_literals_All.js        # All literals overview
+    ├── 26_literals_Number_all.js # All number types in JS
+    ├── 27_String.js              # String basics
+    ├── 28_Template_literals.js   # Template literals
+    └── 29_backtick_single_double.js  # Backtick vs single vs double quotes
 ```
 
 ---
@@ -70,6 +93,20 @@ node Chapter_02_Javascript_Concepts/Identifier_Rules_Examples.js
 - Unicode support in identifiers
 - Best practices summary
 
+### Chapter 4: JavaScript Concepts (var, let, const, Hoisting)
+- `var`, `let`, `const` differences and usage
+- Function declarations and expressions
+- Variable scope: function scope vs block scope
+- Hoisting: var, function, and let hoisting
+- `const` explained and best practices
+
+### Chapter 5: Literals & Strings
+- All literal types in JavaScript
+- `null` vs `undefined`
+- Number literals: integers, floats, binary, octal, hex, scientific, BigInt
+- String literals: single quotes, double quotes, backticks (template literals)
+- Template literals with multiline and expression embedding
+
 ---
 
 ## Topics Covered
@@ -86,6 +123,28 @@ node Chapter_02_Javascript_Concepts/Identifier_Rules_Examples.js
 | Comments | `Chapter_02_Javascript_Concepts/08_Comments.js` |
 | Runnable Examples | `Chapter_02_Javascript_Concepts/Identifier_Rules_Examples.js` |
 | VS Code Shortcuts | `Chapter_02_Javascript_Concepts/VS_Code_Keyshortcut.md` |
+| var, let, const Basics | `Chapter_04_Javascript_Concepts/09_var_let_const.js` |
+| Functions | `Chapter_04_Javascript_Concepts/10_Functions.js` |
+| var Explained | `Chapter_04_Javascript_Concepts/11_var_Explained.js` |
+| let Examples | `Chapter_04_Javascript_Concepts/12_Let_People_Love.js` |
+| const Explained | `Chapter_04_Javascript_Concepts/13_Const_explained.js` |
+| var Function Scope | `Chapter_04_Javascript_Concepts/14_var_functionscope.js` |
+| let Scope | `Chapter_04_Javascript_Concepts/15_Let_scope.js` |
+| Hoisting Basics | `Chapter_04_Javascript_Concepts/16_Hoisting.js` |
+| Function Hoisting | `Chapter_04_Javascript_Concepts/17_Hoisting_fn.js` |
+| let Hoisting | `Chapter_04_Javascript_Concepts/18_let_hoisting.js` |
+| let Hoisting in Blocks | `Chapter_04_Javascript_Concepts/19_Let_Hoisting_block.js` |
+| let vs const | `Chapter_04_Javascript_Concepts/20_let_const.js` |
+| Junior QA Exercise | `Chapter_04_Javascript_Concepts/21_Jr_Qa.js` |
+| 11th May Task | `Chapter_04_Javascript_Concepts/11thMay_Task.md` |
+| Literals Basics | `Chapter_05_literals/22_literals.js` |
+| null vs undefined | `Chapter_05_literals/23_null_undefined.js` |
+| null Deep Dive | `Chapter_05_literals/24_null.js` |
+| All Literals Overview | `Chapter_05_literals/25_literals_All.js` |
+| Number Types in JS | `Chapter_05_literals/26_literals_Number_all.js` |
+| String Basics | `Chapter_05_literals/27_String.js` |
+| Template Literals | `Chapter_05_literals/28_Template_literals.js` |
+| Quotes Comparison | `Chapter_05_literals/29_backtick_single_double.js` |
 
 ---
 

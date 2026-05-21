@@ -29,6 +29,3 @@ console.log(executiontime) //ReferenceError: executiontime is not defined
 // var = variable/traitor
 
 
-
-
-
