@@ -38,15 +38,32 @@ Basics/
 │   ├── 21_Jr_Qa.js               # Junior QA exercise
 │   └── 11thMay_Task.md           # Task file (11 May)
 │
-└── Chapter_05_literals/
-    ├── 22_literals.js            # Literals basics
-    ├── 23_null_undefined.js      # null vs undefined
-    ├── 24_null.js                # null deep dive
-    ├── 25_literals_All.js        # All literals overview
-    ├── 26_literals_Number_all.js # All number types in JS
-    ├── 27_String.js              # String basics
-    ├── 28_Template_literals.js   # Template literals
-    └── 29_backtick_single_double.js  # Backtick vs single vs double quotes
+├── Chapter_05_literals/
+│   ├── 22_literals.js            # Literals basics
+│   ├── 23_null_undefined.js      # null vs undefined
+│   ├── 24_null.js                # null deep dive
+│   ├── 25_literals_All.js        # All literals overview
+│   ├── 26_literals_Number_all.js # All number types in JS
+│   ├── 27_String.js              # String basics
+│   ├── 28_Template_literals.js   # Template literals
+│   └── 29_backtick_single_double.js  # Backtick vs single vs double quotes
+│
+└── Chapter_06_Double_triple_equal.js/
+    ├── 30_Operator.js            # Operators basics
+    ├── 31_Arithmetic_Operators.js # Arithmetic operators
+    ├── 32_Modulus_Op.js          # Modulus operator
+    ├── 33_Expo_Op.js             # Exponentiation operator
+    ├── 34_IQ.js                  # IQ questions
+    ├── 35_Comparision.js         # Comparison operators
+    ├── 36_Comparision_Strict_loose.js # Strict vs loose comparison
+    ├── 37_Loose_Strict.js        # Loose vs strict equality
+    ├── 38_confusing_Comparison.js # Confusing comparison cases
+    ├── 39_Logical_Ops.js         # Logical operators
+    ├── 40_String_Concat_Ops.js   # String concatenation operators
+    ├── 41_Ternary_Ops.js         # Ternary operator
+    ├── 42_Type_Ops.js            # Type operators
+    ├── 43_Incre_Decre_Ops.js     # Increment and decrement operators
+    └── 44_Null_Ops.js            # Nullish operators
 ```
 
 ---
@@ -107,6 +124,17 @@ node Chapter_02_Javascript_Concepts/Identifier_Rules_Examples.js
 - String literals: single quotes, double quotes, backticks (template literals)
 - Template literals with multiline and expression embedding
 
+### Chapter 6: Operators & Comparisons
+- Arithmetic, modulus, and exponentiation operators
+- Comparison operators (`==`, `!=`, `===`, `!==`)
+- Loose vs strict equality with real examples
+- Logical operators (`&&`, `||`, `!`)
+- String concatenation operators
+- Ternary operator
+- Type operators (`typeof`, `instanceof`)
+- Increment and decrement operators
+- Nullish coalescing operator (`??`)
+
 ---
 
 ## Topics Covered
@@ -145,6 +173,21 @@ node Chapter_02_Javascript_Concepts/Identifier_Rules_Examples.js
 | String Basics | `Chapter_05_literals/27_String.js` |
 | Template Literals | `Chapter_05_literals/28_Template_literals.js` |
 | Quotes Comparison | `Chapter_05_literals/29_backtick_single_double.js` |
+| Operators Basics | `Chapter_06_Double_triple_equal.js/30_Operator.js` |
+| Arithmetic Operators | `Chapter_06_Double_triple_equal.js/31_Arithmetic_Operators.js` |
+| Modulus Operator | `Chapter_06_Double_triple_equal.js/32_Modulus_Op.js` |
+| Exponentiation Operator | `Chapter_06_Double_triple_equal.js/33_Expo_Op.js` |
+| IQ Questions | `Chapter_06_Double_triple_equal.js/34_IQ.js` |
+| Comparison Operators | `Chapter_06_Double_triple_equal.js/35_Comparision.js` |
+| Strict vs Loose Comparison | `Chapter_06_Double_triple_equal.js/36_Comparision_Strict_loose.js` |
+| Loose vs Strict Equality | `Chapter_06_Double_triple_equal.js/37_Loose_Strict.js` |
+| Confusing Comparison Cases | `Chapter_06_Double_triple_equal.js/38_confusing_Comparison.js` |
+| Logical Operators | `Chapter_06_Double_triple_equal.js/39_Logical_Ops.js` |
+| String Concatenation | `Chapter_06_Double_triple_equal.js/40_String_Concat_Ops.js` |
+| Ternary Operator | `Chapter_06_Double_triple_equal.js/41_Ternary_Ops.js` |
+| Type Operators | `Chapter_06_Double_triple_equal.js/42_Type_Ops.js` |
+| Increment / Decrement | `Chapter_06_Double_triple_equal.js/43_Incre_Decre_Ops.js` |
+| Nullish Operators | `Chapter_06_Double_triple_equal.js/44_Null_Ops.js` |
 
 ---
 

@@ -21,6 +21,16 @@
 console.log(true == 2);
 
 
+console.log(5 != '5');  //false
+console.log(5 !== '5'); //true  ( value & data type)
+console.log(5 !=== '5'); // this doesn't exist
+
+
+
+
+
+
+
 
 
 

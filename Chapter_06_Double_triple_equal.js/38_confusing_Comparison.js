@@ -50,8 +50,8 @@ console.log("NaN == 0:", NaN == 0);         // false
 console.log("NaN === 0:", NaN === 0);       // false
 
 console.log("\n=== 9. Array vs String ===");
-console.log("[1,2] == '1,2':", [1,2] == '1,2');   // true  -> array becomes string '1,2'
-console.log("[1,2] === '1,2':", [1,2] === '1,2'); // false -> different types
+console.log("[1,2] == '1,2':", [1, 2] == '1,2');   // true  -> array becomes string '1,2'
+console.log("[1,2] === '1,2':", [1, 2] === '1,2'); // false -> different types
 
 console.log("\n=== 10. Empty Array vs Empty String / false ===");
 console.log("[] == '':", [] == '');       // true  -> [] becomes ''
@@ -71,7 +71,7 @@ console.log("a === a:", a === a);     // true  -> same reference
 
 console.log("\n=== 12. Object with valueOf ===");
 let obj = {
-  valueOf: function() { return 42; }
+  valueOf: function () { return 42; }
 };
 console.log("obj == 42:", obj == 42);   // true  -> JS calls valueOf() for ==
 console.log("obj === 42:", obj === 42); // false -> different types
@@ -82,3 +82,5 @@ console.log("Use === (strict equality) ALWAYS.");
 console.log("It checks BOTH value AND type.");
 console.log("No hidden type conversion = No surprises!");
 console.log("========================================");
+
+
