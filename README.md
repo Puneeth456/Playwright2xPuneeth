@@ -1,6 +1,6 @@
 # JavaScript Basics
 
-A beginner-friendly JavaScript learning repository with organized chapters covering fundamental concepts, from basic setup to identifiers, naming conventions, and editor shortcuts.
+A beginner-friendly JavaScript learning repository with organized chapters covering fundamental concepts, from basic setup to advanced operators and interview questions.
 
 ---
 
@@ -15,7 +15,9 @@ Basics/
 │   └── 04_Hotcode.js             # Function calls in a loop
 │
 ├── Chapter_02_Javascript_Concepts/
-│   ├── 05_JS_Basics.js           # var re-assignment
+│   └── 05_JS_Basics.js           # var re-assignment
+│
+├── Chapter_03_Identifier_literals/
 │   ├── 06_Identifier_Rules.js    # Valid & invalid identifier examples
 │   ├── 07_Identifier_Part2.js    # Naming conventions: camelCase, PascalCase, snake_case, etc.
 │   ├── 08_Comments.js            # Single-line & multi-line comments
@@ -63,7 +65,12 @@ Basics/
     ├── 41_Ternary_Ops.js         # Ternary operator
     ├── 42_Type_Ops.js            # Type operators
     ├── 43_Incre_Decre_Ops.js     # Increment and decrement operators
-    └── 44_Null_Ops.js            # Nullish operators
+    ├── 44_Null_Ops.js            # Nullish operators
+    ├── 45.Post_Increment.js      # Post-increment examples
+    ├── 46_IQ_Interview.js        # Interview questions on increment/decrement
+    ├── 47_Advance_Incre_Decre.js # Advanced increment/decrement expressions
+    ├── Assignment_Ternary.js     # Ternary operator assignments
+    └── Question_to_ask_Amit.js   # Practice questions on ternary & operators
 ```
 
 ---
@@ -76,8 +83,8 @@ Basics/
 ### Run a File
 ```bash
 node Chapter_01_basics/01_Basics.js
-node Chapter_02_Javascript_Concepts/06_Identifier_Rules.js
-node Chapter_02_Javascript_Concepts/Identifier_Rules_Examples.js
+node Chapter_03_Identifier_literals/06_Identifier_Rules.js
+node Chapter_03_Identifier_literals/Identifier_Rules_Examples.js
 ```
 
 ---
@@ -91,8 +98,11 @@ node Chapter_02_Javascript_Concepts/Identifier_Rules_Examples.js
 - Verifying Node.js environment (`process.platform`, `process.arch`, `process.version`)
 - Function calls inside loops
 
-### Chapter 2: JavaScript Concepts
+### Chapter 2: JavaScript Concepts (var Basics)
 - `var` behavior and re-assignment
+- Understanding how `var` variables can be updated
+
+### Chapter 3: Identifiers, Naming Conventions & Comments
 - **Identifier Rules**: what makes a valid variable name
 - **Naming Conventions**:
   - `camelCase`
@@ -102,13 +112,10 @@ node Chapter_02_Javascript_Concepts/Identifier_Rules_Examples.js
   - `kebab-case` (and why it fails in JS)
   - Hungarian Notation
 - Comments: `//` and `/* */`
-- VS Code Keyboard Shortcuts for Windows
-
-### Chapter 3: Identifier & Literals (Coming Soon)
 - Runnable examples demonstrating every identifier rule
 - Case-sensitive variable names
 - Unicode support in identifiers
-- Best practices summary
+- VS Code Keyboard Shortcuts for Windows
 
 ### Chapter 4: JavaScript Concepts (var, let, const, Hoisting)
 - `var`, `let`, `const` differences and usage
@@ -116,6 +123,7 @@ node Chapter_02_Javascript_Concepts/Identifier_Rules_Examples.js
 - Variable scope: function scope vs block scope
 - Hoisting: var, function, and let hoisting
 - `const` explained and best practices
+- Junior QA exercise
 
 ### Chapter 5: Literals & Strings
 - All literal types in JavaScript
@@ -130,10 +138,13 @@ node Chapter_02_Javascript_Concepts/Identifier_Rules_Examples.js
 - Loose vs strict equality with real examples
 - Logical operators (`&&`, `||`, `!`)
 - String concatenation operators
-- Ternary operator
+- Ternary operator (simple and nested)
 - Type operators (`typeof`, `instanceof`)
-- Increment and decrement operators
+- Increment and decrement operators (pre and post)
+- Advanced increment/decrement expression evaluation
 - Nullish coalescing operator (`??`)
+- Interview questions and IQ puzzles on operators
+- Practice assignments on ternary operators
 
 ---
 
@@ -146,11 +157,11 @@ node Chapter_02_Javascript_Concepts/Identifier_Rules_Examples.js
 | Node.js Environment Check | `Chapter_01_basics/03_Js_Verify_Setup.js` |
 | Hot Code / Performance | `Chapter_01_basics/04_Hotcode.js` |
 | var vs let Basics | `Chapter_02_Javascript_Concepts/05_JS_Basics.js` |
-| Identifier Rules | `Chapter_02_Javascript_Concepts/06_Identifier_Rules.js` |
-| Naming Conventions | `Chapter_02_Javascript_Concepts/07_Identifier_Part2.js` |
-| Comments | `Chapter_02_Javascript_Concepts/08_Comments.js` |
-| Runnable Examples | `Chapter_02_Javascript_Concepts/Identifier_Rules_Examples.js` |
-| VS Code Shortcuts | `Chapter_02_Javascript_Concepts/VS_Code_Keyshortcut.md` |
+| Identifier Rules | `Chapter_03_Identifier_literals/06_Identifier_Rules.js` |
+| Naming Conventions | `Chapter_03_Identifier_literals/07_Identifier_Part2.js` |
+| Comments | `Chapter_03_Identifier_literals/08_Comments.js` |
+| Runnable Examples | `Chapter_03_Identifier_literals/Identifier_Rules_Examples.js` |
+| VS Code Shortcuts | `Chapter_03_Identifier_literals/VS_Code_Keyshortcut.md` |
 | var, let, const Basics | `Chapter_04_Javascript_Concepts/09_var_let_const.js` |
 | Functions | `Chapter_04_Javascript_Concepts/10_Functions.js` |
 | var Explained | `Chapter_04_Javascript_Concepts/11_var_Explained.js` |
@@ -188,13 +199,18 @@ node Chapter_02_Javascript_Concepts/Identifier_Rules_Examples.js
 | Type Operators | `Chapter_06_Double_triple_equal.js/42_Type_Ops.js` |
 | Increment / Decrement | `Chapter_06_Double_triple_equal.js/43_Incre_Decre_Ops.js` |
 | Nullish Operators | `Chapter_06_Double_triple_equal.js/44_Null_Ops.js` |
+| Post-Increment Examples | `Chapter_06_Double_triple_equal.js/45.Post_Increment.js` |
+| Interview Questions (Operators) | `Chapter_06_Double_triple_equal.js/46_IQ_Interview.js` |
+| Advanced Increment/Decrement | `Chapter_06_Double_triple_equal.js/47_Advance_Incre_Decre.js` |
+| Ternary Assignments | `Chapter_06_Double_triple_equal.js/Assignment_Ternary.js` |
+| Practice Questions | `Chapter_06_Double_triple_equal.js/Question_to_ask_Amit.js` |
 
 ---
 
 ## VS Code Shortcuts
 
 A full Windows shortcut reference is available in:
-- [VS_Code_Keyshortcut.md](Chapter_02_Javascript_Concepts/VS_Code_Keyshortcut.md)
+- [VS_Code_Keyshortcut.md](Chapter_03_Identifier_literals/VS_Code_Keyshortcut.md)
 
 Quick highlights:
 | Shortcut | Action |
