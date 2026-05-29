@@ -50,27 +50,57 @@ Basics/
 │   ├── 28_Template_literals.js   # Template literals
 │   └── 29_backtick_single_double.js  # Backtick vs single vs double quotes
 │
-└── Chapter_06_Double_triple_equal.js/
-    ├── 30_Operator.js            # Operators basics
-    ├── 31_Arithmetic_Operators.js # Arithmetic operators
-    ├── 32_Modulus_Op.js          # Modulus operator
-    ├── 33_Expo_Op.js             # Exponentiation operator
-    ├── 34_IQ.js                  # IQ questions
-    ├── 35_Comparision.js         # Comparison operators
-    ├── 36_Comparision_Strict_loose.js # Strict vs loose comparison
-    ├── 37_Loose_Strict.js        # Loose vs strict equality
-    ├── 38_confusing_Comparison.js # Confusing comparison cases
-    ├── 39_Logical_Ops.js         # Logical operators
-    ├── 40_String_Concat_Ops.js   # String concatenation operators
-    ├── 41_Ternary_Ops.js         # Ternary operator
-    ├── 42_Type_Ops.js            # Type operators
-    ├── 43_Incre_Decre_Ops.js     # Increment and decrement operators
-    ├── 44_Null_Ops.js            # Nullish operators
-    ├── 45.Post_Increment.js      # Post-increment examples
-    ├── 46_IQ_Interview.js        # Interview questions on increment/decrement
-    ├── 47_Advance_Incre_Decre.js # Advanced increment/decrement expressions
-    ├── Assignment_Ternary.js     # Ternary operator assignments
-    └── Question_to_ask_Amit.js   # Practice questions on ternary & operators
+├── Chapter_06_Double_triple_equal/
+│   ├── 30_Operator.js            # Operators basics
+│   ├── 31_Arithmetic_Operators.js # Arithmetic operators
+│   ├── 32_Modulus_Op.js          # Modulus operator
+│   ├── 33_Expo_Op.js             # Exponentiation operator
+│   ├── 34_IQ.js                  # IQ questions
+│   ├── 35_Comparision.js         # Comparison operators
+│   ├── 36_Comparision_Strict_loose.js # Strict vs loose comparison
+│   ├── 37_Loose_Strict.js        # Loose vs strict equality
+│   ├── 38_confusing_Comparison.js # Confusing comparison cases
+│   ├── 39_Logical_Ops.js         # Logical operators
+│   ├── 40_String_Concat_Ops.js   # String concatenation operators
+│   ├── 41_Ternary_Ops.js         # Ternary operator
+│   ├── 42_Type_Ops.js            # Type operators
+│   ├── 43_Incre_Decre_Ops.js     # Increment and decrement operators
+│   ├── 44_Null_Ops.js            # Nullish operators
+│   ├── 45.Post_Increment.js      # Post-increment examples
+│   ├── 46_IQ_Interview.js        # Interview questions on increment/decrement
+│   ├── 47_Advance_Incre_Decre.js # Advanced increment/decrement expressions
+│   ├── Assignment_Ternary.js     # Ternary operator assignments
+│   └── Question_to_ask_Amit.js   # Practice questions on ternary & operators
+│
+├── Chapter_07_If_Else/
+│   ├── 48_IF_Else.js             # Basic if/else
+│   ├── 49_IF_Elseif_Else.js      # if/elseif/else chains
+│   ├── 50_Real_IF_Else.js        # Real-world if/else examples
+│   ├── 51_API_IF_Else.js         # API response handling with if/else
+│   ├── 52_IQ_If_Else.js          # IQ questions on if/else
+│   ├── 53_If_Else_real.js        # More real-world if/else
+│   ├── 54_IQ.js                  # IQ puzzles
+│   ├── 55_Else.js                # else clause deep dive
+│   ├── 56_Interview_Even&Odd.js  # Interview: even/odd checker
+│   ├── 57_Interview_Grade_Calculator.js # Interview: grade calculator
+│   ├── 58_Interview_Leap_Year.js # Interview: leap year checker
+│   └── Assignment_final.js       # Final assignment on if/else
+│
+├── Chapter_08_Switch_Statement/
+│   ├── 59_Switch.js              # Switch basics
+│   ├── 60_No_break.js            # Missing break behavior
+│   ├── 61_Default.js             # Default case usage
+│   ├── 62_Real_Time_Example.js   # Real-time switch example
+│   ├── 63_Switch_Group_Together.js # Grouping cases
+│   ├── 64_Interview_question.js  # Interview questions
+│   ├── 65_Interview_questions2.js # More interview questions
+│   ├── 66_Interview_Questions3.js # Even more interview questions
+│   └── 67_Interview_Questions4.js # Additional interview questions
+│
+└── Chapter_09_User_Input/
+    ├── 68_User_Input.js          # User input basics
+    ├── 69_Node_readlines.js      # Node.js readline module
+    └── 70_Prompt_sync.js         # prompt-sync package usage
 ```
 
 ---
@@ -146,6 +176,24 @@ node Chapter_03_Identifier_literals/Identifier_Rules_Examples.js
 - Interview questions and IQ puzzles on operators
 - Practice assignments on ternary operators
 
+### Chapter 7: If/Else Statements
+- Basic `if` / `else` control flow
+- `if` / `else if` / `else` chains
+- Real-world examples and API response handling
+- Interview exercises: even/odd, grade calculator, leap year
+
+### Chapter 8: Switch Statement
+- `switch` statement basics and syntax
+- `break` and `default` cases
+- Grouping multiple cases together
+- Real-time switch examples
+- Interview questions on switch logic
+
+### Chapter 9: User Input
+- Accepting user input in JavaScript
+- Using Node.js `readline` module
+- Using `prompt-sync` for synchronous prompts
+
 ---
 
 ## Topics Covered
@@ -184,26 +232,49 @@ node Chapter_03_Identifier_literals/Identifier_Rules_Examples.js
 | String Basics | `Chapter_05_literals/27_String.js` |
 | Template Literals | `Chapter_05_literals/28_Template_literals.js` |
 | Quotes Comparison | `Chapter_05_literals/29_backtick_single_double.js` |
-| Operators Basics | `Chapter_06_Double_triple_equal.js/30_Operator.js` |
-| Arithmetic Operators | `Chapter_06_Double_triple_equal.js/31_Arithmetic_Operators.js` |
-| Modulus Operator | `Chapter_06_Double_triple_equal.js/32_Modulus_Op.js` |
-| Exponentiation Operator | `Chapter_06_Double_triple_equal.js/33_Expo_Op.js` |
-| IQ Questions | `Chapter_06_Double_triple_equal.js/34_IQ.js` |
-| Comparison Operators | `Chapter_06_Double_triple_equal.js/35_Comparision.js` |
-| Strict vs Loose Comparison | `Chapter_06_Double_triple_equal.js/36_Comparision_Strict_loose.js` |
-| Loose vs Strict Equality | `Chapter_06_Double_triple_equal.js/37_Loose_Strict.js` |
-| Confusing Comparison Cases | `Chapter_06_Double_triple_equal.js/38_confusing_Comparison.js` |
-| Logical Operators | `Chapter_06_Double_triple_equal.js/39_Logical_Ops.js` |
-| String Concatenation | `Chapter_06_Double_triple_equal.js/40_String_Concat_Ops.js` |
-| Ternary Operator | `Chapter_06_Double_triple_equal.js/41_Ternary_Ops.js` |
-| Type Operators | `Chapter_06_Double_triple_equal.js/42_Type_Ops.js` |
-| Increment / Decrement | `Chapter_06_Double_triple_equal.js/43_Incre_Decre_Ops.js` |
-| Nullish Operators | `Chapter_06_Double_triple_equal.js/44_Null_Ops.js` |
-| Post-Increment Examples | `Chapter_06_Double_triple_equal.js/45.Post_Increment.js` |
-| Interview Questions (Operators) | `Chapter_06_Double_triple_equal.js/46_IQ_Interview.js` |
-| Advanced Increment/Decrement | `Chapter_06_Double_triple_equal.js/47_Advance_Incre_Decre.js` |
-| Ternary Assignments | `Chapter_06_Double_triple_equal.js/Assignment_Ternary.js` |
-| Practice Questions | `Chapter_06_Double_triple_equal.js/Question_to_ask_Amit.js` |
+| Operators Basics | `Chapter_06_Double_triple_equal/30_Operator.js` |
+| Arithmetic Operators | `Chapter_06_Double_triple_equal/31_Arithmetic_Operators.js` |
+| Modulus Operator | `Chapter_06_Double_triple_equal/32_Modulus_Op.js` |
+| Exponentiation Operator | `Chapter_06_Double_triple_equal/33_Expo_Op.js` |
+| IQ Questions | `Chapter_06_Double_triple_equal/34_IQ.js` |
+| Comparison Operators | `Chapter_06_Double_triple_equal/35_Comparision.js` |
+| Strict vs Loose Comparison | `Chapter_06_Double_triple_equal/36_Comparision_Strict_loose.js` |
+| Loose vs Strict Equality | `Chapter_06_Double_triple_equal/37_Loose_Strict.js` |
+| Confusing Comparison Cases | `Chapter_06_Double_triple_equal/38_confusing_Comparison.js` |
+| Logical Operators | `Chapter_06_Double_triple_equal/39_Logical_Ops.js` |
+| String Concatenation | `Chapter_06_Double_triple_equal/40_String_Concat_Ops.js` |
+| Ternary Operator | `Chapter_06_Double_triple_equal/41_Ternary_Ops.js` |
+| Type Operators | `Chapter_06_Double_triple_equal/42_Type_Ops.js` |
+| Increment / Decrement | `Chapter_06_Double_triple_equal/43_Incre_Decre_Ops.js` |
+| Nullish Operators | `Chapter_06_Double_triple_equal/44_Null_Ops.js` |
+| Post-Increment Examples | `Chapter_06_Double_triple_equal/45.Post_Increment.js` |
+| Interview Questions (Operators) | `Chapter_06_Double_triple_equal/46_IQ_Interview.js` |
+| Advanced Increment/Decrement | `Chapter_06_Double_triple_equal/47_Advance_Incre_Decre.js` |
+| Ternary Assignments | `Chapter_06_Double_triple_equal/Assignment_Ternary.js` |
+| Practice Questions | `Chapter_06_Double_triple_equal/Question_to_ask_Amit.js` |
+| If/Else Basics | `Chapter_07_If_Else/48_IF_Else.js` |
+| If/Elseif/Else | `Chapter_07_If_Else/49_IF_Elseif_Else.js` |
+| Real If/Else Examples | `Chapter_07_If_Else/50_Real_IF_Else.js` |
+| API If/Else | `Chapter_07_If_Else/51_API_IF_Else.js` |
+| IQ If/Else | `Chapter_07_If_Else/52_IQ_If_Else.js` |
+| If/Else Real | `Chapter_07_If_Else/53_If_Else_real.js` |
+| Else Clause | `Chapter_07_If_Else/55_Else.js` |
+| Interview: Even & Odd | `Chapter_07_If_Else/56_Interview_Even&Odd.js` |
+| Interview: Grade Calculator | `Chapter_07_If_Else/57_Interview_Grade_Calculator.js` |
+| Interview: Leap Year | `Chapter_07_If_Else/58_Interview_Leap_Year.js` |
+| If/Else Assignment | `Chapter_07_If_Else/Assignment_final.js` |
+| Switch Basics | `Chapter_08_Switch_Statement/59_Switch.js` |
+| No Break in Switch | `Chapter_08_Switch_Statement/60_No_break.js` |
+| Default Case | `Chapter_08_Switch_Statement/61_Default.js` |
+| Real-Time Switch | `Chapter_08_Switch_Statement/62_Real_Time_Example.js` |
+| Switch Group Together | `Chapter_08_Switch_Statement/63_Switch_Group_Together.js` |
+| Switch Interview Q1 | `Chapter_08_Switch_Statement/64_Interview_question.js` |
+| Switch Interview Q2 | `Chapter_08_Switch_Statement/65_Interview_questions2.js` |
+| Switch Interview Q3 | `Chapter_08_Switch_Statement/66_Interview_Questions3.js` |
+| Switch Interview Q4 | `Chapter_08_Switch_Statement/67_Interview_Questions4.js` |
+| User Input Basics | `Chapter_09_User_Input/68_User_Input.js` |
+| Node Readline | `Chapter_09_User_Input/69_Node_readlines.js` |
+| Prompt Sync | `Chapter_09_User_Input/70_Prompt_sync.js` |
 
 ---
 
