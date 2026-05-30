@@ -97,10 +97,24 @@ Basics/
 │   ├── 66_Interview_Questions3.js # Even more interview questions
 │   └── 67_Interview_Questions4.js # Additional interview questions
 │
-└── Chapter_09_User_Input/
-    ├── 68_User_Input.js          # User input basics
-    ├── 69_Node_readlines.js      # Node.js readline module
-    └── 70_Prompt_sync.js         # prompt-sync package usage
+├── Chapter_09_User_Input/
+│   ├── 68_User_Input.js          # User input basics
+│   ├── 69_Node_readlines.js      # Node.js readline module
+│   └── 70_Prompt_sync.js         # prompt-sync package usage
+│
+└── Chapter_10_Loops/
+    ├── 71_For_loops.js           # For loop basics
+    ├── 72_For_loop.js            # For loop variations
+    ├── 73_For_loop2.js           # More for loop examples
+    ├── 74_IQ.js                  # IQ questions on loops
+    ├── 75_For_Each_In_Of.js      # forEach, for...in, for...of
+    ├── 76_While.js               # While loop basics
+    ├── 77_Do_while.js            # Do...while loop basics
+    ├── 78_Do_while.js            # More do...while examples
+    ├── 79_Interview_while.js     # Interview: while loop questions
+    ├── 80_Interview_Do_while.js  # Interview: do...while questions
+    ├── 81_Interview_Continue.js  # Interview: continue in loops
+    └── 82_Interview_while_Dowhile.js # Interview: while vs do...while
 ```
 
 ---
@@ -194,6 +208,13 @@ node Chapter_03_Identifier_literals/Identifier_Rules_Examples.js
 - Using Node.js `readline` module
 - Using `prompt-sync` for synchronous prompts
 
+### Chapter 10: Loops
+- `for` loop basics and variations
+- `while` loop and `do...while` loop
+- Loop control statements: `break` and `continue`
+- `forEach`, `for...in`, and `for...of` iteration methods
+- Interview questions on all loop types
+
 ---
 
 ## Topics Covered
@@ -275,6 +296,18 @@ node Chapter_03_Identifier_literals/Identifier_Rules_Examples.js
 | User Input Basics | `Chapter_09_User_Input/68_User_Input.js` |
 | Node Readline | `Chapter_09_User_Input/69_Node_readlines.js` |
 | Prompt Sync | `Chapter_09_User_Input/70_Prompt_sync.js` |
+| For Loops Basics | `Chapter_10_Loops/71_For_loops.js` |
+| For Loop Variations | `Chapter_10_Loops/72_For_loop.js` |
+| For Loop Examples | `Chapter_10_Loops/73_For_loop2.js` |
+| IQ Loops | `Chapter_10_Loops/74_IQ.js` |
+| ForEach/In/Of | `Chapter_10_Loops/75_For_Each_In_Of.js` |
+| While Loop | `Chapter_10_Loops/76_While.js` |
+| Do While Loop | `Chapter_10_Loops/77_Do_while.js` |
+| Do While Examples | `Chapter_10_Loops/78_Do_while.js` |
+| Interview: While | `Chapter_10_Loops/79_Interview_while.js` |
+| Interview: Do While | `Chapter_10_Loops/80_Interview_Do_while.js` |
+| Interview: Continue | `Chapter_10_Loops/81_Interview_Continue.js` |
+| Interview: While vs Do While | `Chapter_10_Loops/82_Interview_while_Dowhile.js` |
 
 ---
 
