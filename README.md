@@ -116,6 +116,17 @@ Basics/
     ├── 81_Interview_Continue.js  # Interview: continue in loops
     ├── 82_Interview_while_Dowhile.js # Interview: while vs do...while
     └── Assignments.js            # Loop assignments (FizzBuzz, triangle classifier)
+│
+└── Chapter_11_Arrays/
+    ├── 83_Arrays.js              # Array basics and initialization
+    ├── 84_Arrays_diff.js         # Array creation methods (literal, new Array, Array.of, Array.from)
+    ├── 85_Accessing_Arrays.js    # Accessing and modifying array elements
+    ├── 86_Add_Remove_Array.js    # push, pop, unshift, shift
+    ├── 87_Add_Remove2_Array.js   # splice: add, remove, replace elements
+    ├── 88_Real_Example.js        # Real-world array manipulation
+    ├── 89_Searching.js           # indexOf, lastIndexOf, includes, find, findIndex
+    ├── 90_Iterate_Arrays.js      # Iterating arrays: for, for...of, forEach, for...in
+    └── 91_Transform_array.js     # map, filter, reduce, flat
 ```
 
 ---
@@ -216,6 +227,17 @@ node Chapter_03_Identifier_literals/Identifier_Rules_Examples.js
 - `forEach`, `for...in`, and `for...of` iteration methods
 - Interview questions on all loop types
 
+### Chapter 11: Arrays
+- Array basics: empty arrays, initialization, and mixed data types
+- Array creation methods: literal, `new Array`, `Array.of`, `Array.from`
+- Accessing and modifying elements by index, including negative indexing with `.at()`
+- Adding and removing elements: `push`, `pop`, `unshift`, `shift`
+- Advanced manipulation with `splice` (add, remove, replace)
+- Searching arrays: `indexOf`, `lastIndexOf`, `includes`, `find`, `findIndex`
+- Iteration methods: `for`, `for...of`, `forEach`, `for...in`
+- Transform methods: `map`, `filter`, `reduce`, `flat`
+- Real-world array examples
+
 ---
 
 ## Topics Covered
@@ -310,6 +332,15 @@ node Chapter_03_Identifier_literals/Identifier_Rules_Examples.js
 | Interview: Continue | `Chapter_10_Loops/81_Interview_Continue.js` |
 | Interview: While vs Do While | `Chapter_10_Loops/82_Interview_while_Dowhile.js` |
 | Loop Assignments | `Chapter_10_Loops/Assignments.js` |
+| Array Basics | `Chapter_11_Arrays/83_Arrays.js` |
+| Array Creation Methods | `Chapter_11_Arrays/84_Arrays_diff.js` |
+| Accessing & Modifying Arrays | `Chapter_11_Arrays/85_Accessing_Arrays.js` |
+| Add/Remove Elements (Basic) | `Chapter_11_Arrays/86_Add_Remove_Array.js` |
+| Add/Remove Elements (Splice) | `Chapter_11_Arrays/87_Add_Remove2_Array.js` |
+| Real-World Array Example | `Chapter_11_Arrays/88_Real_Example.js` |
+| Searching Arrays | `Chapter_11_Arrays/89_Searching.js` |
+| Iterating Arrays | `Chapter_11_Arrays/90_Iterate_Arrays.js` |
+| Transform Arrays | `Chapter_11_Arrays/91_Transform_array.js` |
 
 ---
 
