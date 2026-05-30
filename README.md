@@ -114,7 +114,8 @@ Basics/
     ├── 79_Interview_while.js     # Interview: while loop questions
     ├── 80_Interview_Do_while.js  # Interview: do...while questions
     ├── 81_Interview_Continue.js  # Interview: continue in loops
-    └── 82_Interview_while_Dowhile.js # Interview: while vs do...while
+    ├── 82_Interview_while_Dowhile.js # Interview: while vs do...while
+    └── Assignments.js            # Loop assignments (FizzBuzz, triangle classifier)
 ```
 
 ---
@@ -308,6 +309,7 @@ node Chapter_03_Identifier_literals/Identifier_Rules_Examples.js
 | Interview: Do While | `Chapter_10_Loops/80_Interview_Do_while.js` |
 | Interview: Continue | `Chapter_10_Loops/81_Interview_Continue.js` |
 | Interview: While vs Do While | `Chapter_10_Loops/82_Interview_while_Dowhile.js` |
+| Loop Assignments | `Chapter_10_Loops/Assignments.js` |
 
 ---
 
