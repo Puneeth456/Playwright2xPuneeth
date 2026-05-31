@@ -126,7 +126,21 @@ Basics/
     ├── 88_Real_Example.js        # Real-world array manipulation
     ├── 89_Searching.js           # indexOf, lastIndexOf, includes, find, findIndex
     ├── 90_Iterate_Arrays.js      # Iterating arrays: for, for...of, forEach, for...in
-    └── 91_Transform_array.js     # map, filter, reduce, flat
+    ├── 91_Transform_array.js     # map, filter, reduce, flat
+    ├── 92_Sort_Arrays.js         # sort with lexical and natural sorting
+    ├── 93_Array_slicing.js       # slice for copying and extracting subarrays
+    ├── 94_Concat_Arrays.js       # concat and spread operator for combining arrays
+    └── 95_Array_Checking.js     # Array.isArray, every, some
+│
+└── Chapter_12_Functions/
+    ├── 96_Functions.js           # Function definition and calling
+    ├── 97_Type1_Basic_Function.js # Type 1: no param, no return
+    ├── 98_Type2_Function_with Param_No_Return.js # Type 2: with param, no return
+    ├── 99_Function_without_Param_Return_Type.js # Type 3: no param, with return
+    ├── 100_Function_with_Param_with_Return_type.js # Type 4: with param, with return
+    ├── 101_Template_literal.js   # Template literals inside functions
+    ├── 102_Function_expression.js # Function expressions
+    └── 103_Arrow_function.js    # Arrow functions (ES6)
 ```
 
 ---
@@ -236,7 +250,17 @@ node Chapter_03_Identifier_literals/Identifier_Rules_Examples.js
 - Searching arrays: `indexOf`, `lastIndexOf`, `includes`, `find`, `findIndex`
 - Iteration methods: `for`, `for...of`, `forEach`, `for...in`
 - Transform methods: `map`, `filter`, `reduce`, `flat`
+- Sorting arrays: lexical and natural sorting with compare functions
+- Slicing and combining arrays: `slice`, `concat`, spread operator
+- Checking arrays: `Array.isArray`, `every`, `some`
 - Real-world array examples
+
+### Chapter 12: Functions
+- Function definition and calling basics
+- Function types by parameters and return values
+- Template literals inside functions
+- Function expressions vs declarations
+- Arrow functions (ES6) and shorthand syntax
 
 ---
 
@@ -341,6 +365,18 @@ node Chapter_03_Identifier_literals/Identifier_Rules_Examples.js
 | Searching Arrays | `Chapter_11_Arrays/89_Searching.js` |
 | Iterating Arrays | `Chapter_11_Arrays/90_Iterate_Arrays.js` |
 | Transform Arrays | `Chapter_11_Arrays/91_Transform_array.js` |
+| Sorting Arrays | `Chapter_11_Arrays/92_Sort_Arrays.js` |
+| Array Slicing | `Chapter_11_Arrays/93_Array_slicing.js` |
+| Array Concatenation | `Chapter_11_Arrays/94_Concat_Arrays.js` |
+| Array Checking | `Chapter_11_Arrays/95_Array_Checking.js` |
+| Functions Basics | `Chapter_12_Functions/96_Functions.js` |
+| Basic Function (No Param, No Return) | `Chapter_12_Functions/97_Type1_Basic_Function.js` |
+| Function with Param, No Return | `Chapter_12_Functions/98_Type2_Function_with Param_No_Return.js` |
+| Function without Param, with Return | `Chapter_12_Functions/99_Function_without_Param_Return_Type.js` |
+| Function with Param, with Return | `Chapter_12_Functions/100_Function_with_Param_with_Return_type.js` |
+| Template Literals in Functions | `Chapter_12_Functions/101_Template_literal.js` |
+| Function Expressions | `Chapter_12_Functions/102_Function_expression.js` |
+| Arrow Functions | `Chapter_12_Functions/103_Arrow_function.js` |
 
 ---
 
