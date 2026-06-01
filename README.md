@@ -140,7 +140,21 @@ Basics/
     ├── 100_Function_with_Param_with_Return_type.js # Type 4: with param, with return
     ├── 101_Template_literal.js   # Template literals inside functions
     ├── 102_Function_expression.js # Function expressions
-    └── 103_Arrow_function.js    # Arrow functions (ES6)
+    ├── 103_Arrow_function.js    # Arrow functions (ES6)
+    ├── 104_Arrow_Function_real.js # Real-world arrow function example (status code check)
+    ├── 105_IIFE.js              # Immediately Invoked Function Expressions
+    ├── 106_Default_Param_fn.js  # Default parameters in functions
+    ├── 107_IQ.js                # Interview question: return values and function types
+    ├── 108_Rest_Param_fn.js     # Rest parameters (...args)
+    ├── 109_IQ.js                # Interview question: return behavior, hoisting, TDZ
+    ├── 110_Spread_IQ.js         # Spread operator with functions
+    ├── 111_Scope_Fn.js          # Function scope: global vs local
+    ├── 112_IQ.js                # Interview question: nested scope
+    ├── 113_Closures.js          # Closures basics
+    ├── 114_Closure.js           # Closure practical example (counter)
+    ├── 115_Api_real_example.js  # Real-world closure: retry tracker
+    ├── 116_Higher_Order_Fn.js  # Higher-order functions
+    └── 117_Pure_fn.js          # Pure vs impure functions
 ```
 
 ---
@@ -261,6 +275,14 @@ node Chapter_03_Identifier_literals/Identifier_Rules_Examples.js
 - Template literals inside functions
 - Function expressions vs declarations
 - Arrow functions (ES6) and shorthand syntax
+- Real-world arrow function example (HTTP status code validation)
+- IIFE (Immediately Invoked Function Expressions)
+- Default parameters
+- Rest parameters and spread operator with functions
+- Function scope: global vs local, nested scope
+- Closures: basics, practical examples, and real-world use cases (retry tracker)
+- Higher-order functions (functions that take or return functions)
+- Pure vs impure functions
 
 ---
 
@@ -377,6 +399,20 @@ node Chapter_03_Identifier_literals/Identifier_Rules_Examples.js
 | Template Literals in Functions | `Chapter_12_Functions/101_Template_literal.js` |
 | Function Expressions | `Chapter_12_Functions/102_Function_expression.js` |
 | Arrow Functions | `Chapter_12_Functions/103_Arrow_function.js` |
+| Arrow Functions Real Example | `Chapter_12_Functions/104_Arrow_Function_real.js` |
+| IIFE | `Chapter_12_Functions/105_IIFE.js` |
+| Default Parameters | `Chapter_12_Functions/106_Default_Param_fn.js` |
+| IQ: Return Values | `Chapter_12_Functions/107_IQ.js` |
+| Rest Parameters | `Chapter_12_Functions/108_Rest_Param_fn.js` |
+| IQ: Return & Hoisting | `Chapter_12_Functions/109_IQ.js` |
+| Spread Operator IQ | `Chapter_12_Functions/110_Spread_IQ.js` |
+| Function Scope | `Chapter_12_Functions/111_Scope_Fn.js` |
+| IQ: Nested Scope | `Chapter_12_Functions/112_IQ.js` |
+| Closures Basics | `Chapter_12_Functions/113_Closures.js` |
+| Closure Counter Example | `Chapter_12_Functions/114_Closure.js` |
+| Real-World Closure: Retry Tracker | `Chapter_12_Functions/115_Api_real_example.js` |
+| Higher-Order Functions | `Chapter_12_Functions/116_Higher_Order_Fn.js` |
+| Pure vs Impure Functions | `Chapter_12_Functions/117_Pure_fn.js` |
 
 ---
 

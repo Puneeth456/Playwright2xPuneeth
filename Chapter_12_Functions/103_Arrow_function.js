@@ -24,6 +24,36 @@ printIt("Dutta");
 
 
 
+function add(a, b) {
+    return a + b;
+}
+
+let sum = add(4, 5)
+console.log(sum);
+
+
+const add2 = (a, b) => a + b;
+add2();
+
+
+function say() {
+    console.log("Hi");
+}
+
+const s1 = () => console.log('Hi');
+s1();
+
+const s2 = () => 'hi';
+s2();
+
+
+///If its a multiple line in the Arrow function;
+
+const greet = name => {
+    const message = 'hi' + name;
+    return message;
+}
+
 
 
 
