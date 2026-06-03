@@ -155,6 +155,16 @@ Basics/
     ├── 115_Api_real_example.js  # Real-world closure: retry tracker
     ├── 116_Higher_Order_Fn.js  # Higher-order functions
     └── 117_Pure_fn.js          # Pure vs impure functions
+│
+└── Chapter_13_Strings/
+    ├── 118_strings.js              # String basics and creation
+    ├── 119_String_Properties.js    # String properties: length, indexing
+    ├── 120_Search_Check_String.js  # Searching and checking strings
+    ├── 121_Substring.js            # Substring methods: slice, substring, substr
+    ├── 122_Transform_String.js     # Transform strings: toUpperCase, toLowerCase, trim, replace, repeat
+    ├── 123_String_Conversion.js    # String conversion and casting
+    ├── IQ_Strings.js               # Interview questions on strings
+    └── String_Methods_CheatSheet.md # Quick reference cheat sheet for all string methods
 ```
 
 ---
@@ -283,6 +293,18 @@ node Chapter_03_Identifier_literals/Identifier_Rules_Examples.js
 - Closures: basics, practical examples, and real-world use cases (retry tracker)
 - Higher-order functions (functions that take or return functions)
 - Pure vs impure functions
+
+### Chapter 13: Strings
+- String basics: creation with single quotes, double quotes, and backticks
+- String properties: `length`, character access by index
+- Searching strings: `indexOf`, `lastIndexOf`, `includes`, `search`, `match`, `matchAll`
+- Checking strings: `startsWith`, `endsWith`
+- Extracting substrings: `slice`, `substring`, `substr`, `charAt`, `charCodeAt`, `at`
+- Transforming strings: `toUpperCase`, `toLowerCase`, `trim`, `trimStart`, `trimEnd`, `replace`, `replaceAll`, `repeat`, `padStart`, `padEnd`
+- Splitting strings: `split` method
+- String conversion and casting: `String()`, `toString()`, template literals, `JSON.stringify()`
+- Interview questions and IQ puzzles on strings
+- Quick reference cheat sheet for all JavaScript string methods
 
 ---
 
@@ -413,6 +435,14 @@ node Chapter_03_Identifier_literals/Identifier_Rules_Examples.js
 | Real-World Closure: Retry Tracker | `Chapter_12_Functions/115_Api_real_example.js` |
 | Higher-Order Functions | `Chapter_12_Functions/116_Higher_Order_Fn.js` |
 | Pure vs Impure Functions | `Chapter_12_Functions/117_Pure_fn.js` |
+| String Basics | `Chapter_13_Strings/118_strings.js` |
+| String Properties | `Chapter_13_Strings/119_String_Properties.js` |
+| Search & Check Strings | `Chapter_13_Strings/120_Search_Check_String.js` |
+| Substring Methods | `Chapter_13_Strings/121_Substring.js` |
+| Transform Strings | `Chapter_13_Strings/122_Transform_String.js` |
+| String Conversion | `Chapter_13_Strings/123_String_Conversion.js` |
+| String Interview Questions | `Chapter_13_Strings/IQ_Strings.js` |
+| String Methods Cheat Sheet | `Chapter_13_Strings/String_Methods_CheatSheet.md` |
 
 ---
 
