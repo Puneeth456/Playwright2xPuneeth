@@ -163,8 +163,25 @@ Basics/
     ├── 121_Substring.js            # Substring methods: slice, substring, substr
     ├── 122_Transform_String.js     # Transform strings: toUpperCase, toLowerCase, trim, replace, repeat
     ├── 123_String_Conversion.js    # String conversion and casting
+    ├── Assignment_String.js        # String assignment exercises
     ├── IQ_Strings.js               # Interview questions on strings
     └── String_Methods_CheatSheet.md # Quick reference cheat sheet for all string methods
+
+└── Chapter_14_Objects/
+    ├── 124_Objects.js              # Object basics and creation
+    ├── 125_Objects2.js             # Key-value pairs, dot/bracket notation, reference
+    ├── 126_Objects_Creation.js     # Object reference comparison
+    ├── 127_Objects_real.js         # Real-world object config usage
+    ├── 128_Object_Primitive_Ref.js # Primitive vs reference types
+    ├── 129_Object_Examples.js      # JSON vs JS object syntax
+    ├── 130_IQ.js                   # Dynamic property access, property descriptors
+    ├── 131_Object_Function.js      # Methods inside objects
+    ├── 132_Object_Deconstruction.js # Destructuring, renaming, default values, nested
+    ├── 133_Object_Spread.js        # Spread operator with objects
+    ├── 134_Object_get_set_method.js # Getters and setters
+    ├── 135_IQ_.js                  # Object.keys/values/entries, for...in
+    ├── 136_Objects_Real.js         # Real-world: env config, API response objects
+    └── 137_Const_Let_Obj.js        # const vs let with objects
 ```
 
 ---
