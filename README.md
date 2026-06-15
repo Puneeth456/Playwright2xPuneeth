@@ -102,86 +102,103 @@ Basics/
 │   ├── 69_Node_readlines.js      # Node.js readline module
 │   └── 70_Prompt_sync.js         # prompt-sync package usage
 │
-└── Chapter_10_Loops/
-    ├── 71_For_loops.js           # For loop basics
-    ├── 72_For_loop.js            # For loop variations
-    ├── 73_For_loop2.js           # More for loop examples
-    ├── 74_IQ.js                  # IQ questions on loops
-    ├── 75_For_Each_In_Of.js      # forEach, for...in, for...of
-    ├── 76_While.js               # While loop basics
-    ├── 77_Do_while.js            # Do...while loop basics
-    ├── 78_Do_while.js            # More do...while examples
-    ├── 79_Interview_while.js     # Interview: while loop questions
-    ├── 80_Interview_Do_while.js  # Interview: do...while questions
-    ├── 81_Interview_Continue.js  # Interview: continue in loops
-    ├── 82_Interview_while_Dowhile.js # Interview: while vs do...while
-    └── Assignments.js            # Loop assignments (FizzBuzz, triangle classifier)
+├── Chapter_10_Loops/
+│   ├── 71_For_loops.js           # For loop basics
+│   ├── 72_For_loop.js            # For loop variations
+│   ├── 73_For_loop2.js           # More for loop examples
+│   ├── 74_IQ.js                  # IQ questions on loops
+│   ├── 75_For_Each_In_Of.js      # forEach, for...in, for...of
+│   ├── 76_While.js               # While loop basics
+│   ├── 77_Do_while.js            # Do...while loop basics
+│   ├── 78_Do_while.js            # More do...while examples
+│   ├── 79_Interview_while.js     # Interview: while loop questions
+│   ├── 80_Interview_Do_while.js  # Interview: do...while questions
+│   ├── 81_Interview_Continue.js  # Interview: continue in loops
+│   ├── 82_Interview_while_Dowhile.js # Interview: while vs do...while
+│   └── Assignments.js            # Loop assignments (FizzBuzz, triangle classifier)
 │
-└── Chapter_11_Arrays/
-    ├── 83_Arrays.js              # Array basics and initialization
-    ├── 84_Arrays_diff.js         # Array creation methods (literal, new Array, Array.of, Array.from)
-    ├── 85_Accessing_Arrays.js    # Accessing and modifying array elements
-    ├── 86_Add_Remove_Array.js    # push, pop, unshift, shift
-    ├── 87_Add_Remove2_Array.js   # splice: add, remove, replace elements
-    ├── 88_Real_Example.js        # Real-world array manipulation
-    ├── 89_Searching.js           # indexOf, lastIndexOf, includes, find, findIndex
-    ├── 90_Iterate_Arrays.js      # Iterating arrays: for, for...of, forEach, for...in
-    ├── 91_Transform_array.js     # map, filter, reduce, flat
-    ├── 92_Sort_Arrays.js         # sort with lexical and natural sorting
-    ├── 93_Array_slicing.js       # slice for copying and extracting subarrays
-    ├── 94_Concat_Arrays.js       # concat and spread operator for combining arrays
-    └── 95_Array_Checking.js     # Array.isArray, every, some
+├── Chapter_11_Arrays/
+│   ├── 83_Arrays.js              # Array basics and initialization
+│   ├── 84_Arrays_diff.js         # Array creation methods (literal, new Array, Array.of, Array.from)
+│   ├── 85_Accessing_Arrays.js    # Accessing and modifying array elements
+│   ├── 86_Add_Remove_Array.js    # push, pop, unshift, shift
+│   ├── 87_Add_Remove2_Array.js   # splice: add, remove, replace elements
+│   ├── 88_Real_Example.js        # Real-world array manipulation
+│   ├── 89_Searching.js           # indexOf, lastIndexOf, includes, find, findIndex
+│   ├── 90_Iterate_Arrays.js      # Iterating arrays: for, for...of, forEach, for...in
+│   ├── 91_Transform_array.js     # map, filter, reduce, flat
+│   ├── 92_Sort_Arrays.js         # sort with lexical and natural sorting
+│   ├── 93_Array_slicing.js       # slice for copying and extracting subarrays
+│   ├── 94_Concat_Arrays.js       # concat and spread operator for combining arrays
+│   └── 95_Array_Checking.js     # Array.isArray, every, some
 │
-└── Chapter_12_Functions/
-    ├── 96_Functions.js           # Function definition and calling
-    ├── 97_Type1_Basic_Function.js # Type 1: no param, no return
-    ├── 98_Type2_Function_with Param_No_Return.js # Type 2: with param, no return
-    ├── 99_Function_without_Param_Return_Type.js # Type 3: no param, with return
-    ├── 100_Function_with_Param_with_Return_type.js # Type 4: with param, with return
-    ├── 101_Template_literal.js   # Template literals inside functions
-    ├── 102_Function_expression.js # Function expressions
-    ├── 103_Arrow_function.js    # Arrow functions (ES6)
-    ├── 104_Arrow_Function_real.js # Real-world arrow function example (status code check)
-    ├── 105_IIFE.js              # Immediately Invoked Function Expressions
-    ├── 106_Default_Param_fn.js  # Default parameters in functions
-    ├── 107_IQ.js                # Interview question: return values and function types
-    ├── 108_Rest_Param_fn.js     # Rest parameters (...args)
-    ├── 109_IQ.js                # Interview question: return behavior, hoisting, TDZ
-    ├── 110_Spread_IQ.js         # Spread operator with functions
-    ├── 111_Scope_Fn.js          # Function scope: global vs local
-    ├── 112_IQ.js                # Interview question: nested scope
-    ├── 113_Closures.js          # Closures basics
-    ├── 114_Closure.js           # Closure practical example (counter)
-    ├── 115_Api_real_example.js  # Real-world closure: retry tracker
-    ├── 116_Higher_Order_Fn.js  # Higher-order functions
-    └── 117_Pure_fn.js          # Pure vs impure functions
+├── Chapter_12_Functions/
+│   ├── 96_Functions.js           # Function definition and calling
+│   ├── 97_Type1_Basic_Function.js # Type 1: no param, no return
+│   ├── 98_Type2_Function_with Param_No_Return.js # Type 2: with param, no return
+│   ├── 99_Function_without_Param_Return_Type.js # Type 3: no param, with return
+│   ├── 100_Function_with_Param_with_Return_type.js # Type 4: with param, with return
+│   ├── 101_Template_literal.js   # Template literals inside functions
+│   ├── 102_Function_expression.js # Function expressions
+│   ├── 103_Arrow_function.js    # Arrow functions (ES6)
+│   ├── 104_Arrow_Function_real.js # Real-world arrow function example (status code check)
+│   ├── 105_IIFE.js              # Immediately Invoked Function Expressions
+│   ├── 106_Default_Param_fn.js  # Default parameters in functions
+│   ├── 107_IQ.js                # Interview question: return values and function types
+│   ├── 108_Rest_Param_fn.js     # Rest parameters (...args)
+│   ├── 109_IQ.js                # Interview question: return behavior, hoisting, TDZ
+│   ├── 110_Spread_IQ.js         # Spread operator with functions
+│   ├── 111_Scope_Fn.js          # Function scope: global vs local
+│   ├── 112_IQ.js                # Interview question: nested scope
+│   ├── 113_Closures.js          # Closures basics
+│   ├── 114_Closure.js           # Closure practical example (counter)
+│   ├── 115_Api_real_example.js  # Real-world closure: retry tracker
+│   ├── 116_Higher_Order_Fn.js  # Higher-order functions
+│   └── 117_Pure_fn.js          # Pure vs impure functions
 │
-└── Chapter_13_Strings/
-    ├── 118_strings.js              # String basics and creation
-    ├── 119_String_Properties.js    # String properties: length, indexing
-    ├── 120_Search_Check_String.js  # Searching and checking strings
-    ├── 121_Substring.js            # Substring methods: slice, substring, substr
-    ├── 122_Transform_String.js     # Transform strings: toUpperCase, toLowerCase, trim, replace, repeat
-    ├── 123_String_Conversion.js    # String conversion and casting
-    ├── Assignment_String.js        # String assignment exercises
-    ├── IQ_Strings.js               # Interview questions on strings
-    └── String_Methods_CheatSheet.md # Quick reference cheat sheet for all string methods
-
-└── Chapter_14_Objects/
-    ├── 124_Objects.js              # Object basics and creation
-    ├── 125_Objects2.js             # Key-value pairs, dot/bracket notation, reference
-    ├── 126_Objects_Creation.js     # Object reference comparison
-    ├── 127_Objects_real.js         # Real-world object config usage
-    ├── 128_Object_Primitive_Ref.js # Primitive vs reference types
-    ├── 129_Object_Examples.js      # JSON vs JS object syntax
-    ├── 130_IQ.js                   # Dynamic property access, property descriptors
-    ├── 131_Object_Function.js      # Methods inside objects
-    ├── 132_Object_Deconstruction.js # Destructuring, renaming, default values, nested
-    ├── 133_Object_Spread.js        # Spread operator with objects
-    ├── 134_Object_get_set_method.js # Getters and setters
-    ├── 135_IQ_.js                  # Object.keys/values/entries, for...in
-    ├── 136_Objects_Real.js         # Real-world: env config, API response objects
-    └── 137_Const_Let_Obj.js        # const vs let with objects
+├── Chapter_13_Strings/
+│   ├── 118_strings.js              # String basics and creation
+│   ├── 119_String_Properties.js    # String properties: length, indexing
+│   ├── 120_Search_Check_String.js  # Searching and checking strings
+│   ├── 121_Substring.js            # Substring methods: slice, substring, substr
+│   ├── 122_Transform_String.js     # Transform strings: toUpperCase, toLowerCase, trim, replace, repeat
+│   ├── 123_String_Conversion.js    # String conversion and casting
+│   ├── Assignment_String.js        # String assignment exercises
+│   ├── IQ_Strings.js               # Interview questions on strings
+│   └── String_Methods_CheatSheet.md # Quick reference cheat sheet for all string methods
+│
+├── Chapter_14_Objects/
+│   ├── 124_Objects.js              # Object basics and creation
+│   ├── 125_Objects2.js             # Key-value pairs, dot/bracket notation, reference
+│   ├── 126_Objects_Creation.js     # Object reference comparison
+│   ├── 127_Objects_real.js         # Real-world object config usage
+│   ├── 128_Object_Primitive_Ref.js # Primitive vs reference types
+│   ├── 129_Object_Examples.js      # JSON vs JS object syntax
+│   ├── 130_IQ.js                   # Dynamic property access, property descriptors
+│   ├── 131_Object_Function.js      # Methods inside objects
+│   ├── 132_Object_Deconstruction.js # Destructuring, renaming, default values, nested
+│   ├── 133_Object_Spread.js        # Spread operator with objects
+│   ├── 134_Object_get_set_method.js # Getters and setters
+│   ├── 135_IQ_.js                  # Object.keys/values/entries, for...in
+│   ├── 136_Objects_Real.js         # Real-world: env config, API response objects
+│   └── 137_Const_Let_Obj.js        # const vs let with objects
+│
+├── Chapter_15/                      # (empty)
+│
+├── Chapter_16/                      # (empty)
+│
+├── Chapter_17/                      # (empty)
+│
+├── Chapter_18/
+│   ├── 161_                        # Placeholder
+│   ├── 162_                        # Placeholder
+│   ├── 163_                        # Placeholder
+│   ├── 164_                        # Placeholder
+│   ├── Tobe_rememembered.md        # Async/await key concepts
+│
+├── Chapter_19/
+    ├── package.json                # Playwright dependency
+    ├── node_modules/               # Installed packages
 ```
 
 ---
@@ -323,6 +340,29 @@ node Chapter_03_Identifier_literals/Identifier_Rules_Examples.js
 - Interview questions and IQ puzzles on strings
 - Quick reference cheat sheet for all JavaScript string methods
 
+### Chapter 14: Objects
+- Object basics: creation with literal, `new Object()`, constructor functions
+- Key-value pairs, dot notation and bracket notation
+- Primitives vs reference types (objects are reference types)
+- Methods inside objects, `this` keyword
+- Object destructuring: renaming, default values, nested destructuring
+- Spread operator with objects (`...`)
+- Getters and setters (`get`, `set`)
+- Object iteration: `Object.keys()`, `Object.values()`, `Object.entries()`, `for...in`
+- `const` vs `let` with objects (reference immutability)
+- Real-world examples: env config, API response handling
+
+### Chapter 18: Async / Await
+- Async functions always return a Promise
+- `await` keyword to consume promises
+- Key rule: if there's a function → make it `async`; if there's a statement → use `await`
+- Promise-based asynchronous flow
+
+### Chapter 19: Playwright Setup
+- Installed Playwright browser automation library
+- Browsers installed: Firefox 150.0.2, WebKit 26.4
+- Ready for browser automation and testing
+
 ---
 
 ## Topics Covered
@@ -460,6 +500,22 @@ node Chapter_03_Identifier_literals/Identifier_Rules_Examples.js
 | String Conversion | `Chapter_13_Strings/123_String_Conversion.js` |
 | String Interview Questions | `Chapter_13_Strings/IQ_Strings.js` |
 | String Methods Cheat Sheet | `Chapter_13_Strings/String_Methods_CheatSheet.md` |
+| Object Basics | `Chapter_14_Objects/124_Objects.js` |
+| Object Key-Value & Notation | `Chapter_14_Objects/125_Objects2.js` |
+| Object Reference | `Chapter_14_Objects/126_Objects_Creation.js` |
+| Real-World Objects | `Chapter_14_Objects/127_Objects_real.js` |
+| Primitive vs Reference | `Chapter_14_Objects/128_Object_Primitive_Ref.js` |
+| JSON vs JS Objects | `Chapter_14_Objects/129_Object_Examples.js` |
+| IQ: Dynamic Properties | `Chapter_14_Objects/130_IQ.js` |
+| Object Methods | `Chapter_14_Objects/131_Object_Function.js` |
+| Destructuring | `Chapter_14_Objects/132_Object_Deconstruction.js` |
+| Spread Operator | `Chapter_14_Objects/133_Object_Spread.js` |
+| Getters & Setters | `Chapter_14_Objects/134_Object_get_set_method.js` |
+| Object.keys/values/entries | `Chapter_14_Objects/135_IQ_.js` |
+| Real Objects: Config & API | `Chapter_14_Objects/136_Objects_Real.js` |
+| const vs let with Objects | `Chapter_14_Objects/137_Const_Let_Obj.js` |
+| Async/Await Notes | `Chapter_18/Tobe_rememembered.md` |
+| Playwright Setup | `Chapter_19/package.json` |
 
 ---
 
