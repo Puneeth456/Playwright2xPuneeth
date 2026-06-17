@@ -189,12 +189,16 @@ Basics/
 │
 ├── Chapter_17/                      # (empty)
 │
-├── Chapter_18/
-│   ├── 161_                        # Placeholder
-│   ├── 162_                        # Placeholder
-│   ├── 163_                        # Placeholder
-│   ├── 164_                        # Placeholder
-│   ├── Tobe_rememembered.md        # Async/await key concepts
+├── Chapter_18_Async_Await/
+│   ├── 161_Async_Await.js          # Async function basics
+│   ├── 162_Async_P2.js             # Async patterns part 2
+│   ├── 163_PyODom.js               # DOM manipulation with async
+│   ├── 164_Async_Ex.js             # Async execution examples
+│   ├── 165_Async_Await_Parll.js    # Parallel async/await
+│   ├── 165_Async_Await_Seq.js      # Sequential async/await
+│   ├── 166_IQ.js                   # Async/await interview questions
+│   ├── 167_Advance_Login.js        # Advanced login with async
+│   └── Tobe_rememembered.md        # Async/await key concepts
 │
 ├── Chapter_19/
     ├── package.json                # Playwright dependency
@@ -355,8 +359,9 @@ node Chapter_03_Identifier_literals/Identifier_Rules_Examples.js
 ### Chapter 18: Async / Await
 - Async functions always return a Promise
 - `await` keyword to consume promises
-- Key rule: if there's a function → make it `async`; if there's a statement → use `await`
-- Promise-based asynchronous flow
+- Sequential and parallel execution patterns
+- Real-world examples including advanced login flow
+- Interview questions and IQ puzzles on async patterns
 
 ### Chapter 19: Playwright Setup
 - Installed Playwright browser automation library
@@ -514,8 +519,16 @@ node Chapter_03_Identifier_literals/Identifier_Rules_Examples.js
 | Object.keys/values/entries | `Chapter_14_Objects/135_IQ_.js` |
 | Real Objects: Config & API | `Chapter_14_Objects/136_Objects_Real.js` |
 | const vs let with Objects | `Chapter_14_Objects/137_Const_Let_Obj.js` |
-| Async/Await Notes | `Chapter_18/Tobe_rememembered.md` |
-| Playwright Setup | `Chapter_19/package.json` |
+| Async Function Basics | `Chapter_18_Async_Await/161_Async_Await.js` |
+| Async Patterns Part 2 | `Chapter_18_Async_Await/162_Async_P2.js` |
+| DOM with Async | `Chapter_18_Async_Await/163_PyODom.js` |
+| Async Execution Examples | `Chapter_18_Async_Await/164_Async_Ex.js` |
+| Parallel Async/Await | `Chapter_18_Async_Await/165_Async_Await_Parll.js` |
+| Sequential Async/Await | `Chapter_18_Async_Await/165_Async_Await_Seq.js` |
+| Async Interview Questions | `Chapter_18_Async_Await/166_IQ.js` |
+| Advanced Login | `Chapter_18_Async_Await/167_Advance_Login.js` |
+| Async/Await Notes | `Chapter_18_Async_Await/Tobe_rememembered.md` |
+| Playwright Setup | `Chapter_19_Playwright_Basics/package.json` |
 
 ---
 
