@@ -363,10 +363,11 @@ node Chapter_03_Identifier_literals/Identifier_Rules_Examples.js
 - Real-world examples including advanced login flow
 - Interview questions and IQ puzzles on async patterns
 
-### Chapter 19: Playwright Setup
-- Installed Playwright browser automation library
+### Chapter 19: Playwright Basics
+- Installed Playwright v1.61.0 with @playwright/test v1.61.0
 - Browsers installed: Firefox 150.0.2, WebKit 26.4
-- Ready for browser automation and testing
+- Ready for browser automation and end-to-end testing
+- Includes test-results output for Playwright test runs
 
 ---
 
@@ -528,7 +529,7 @@ node Chapter_03_Identifier_literals/Identifier_Rules_Examples.js
 | Async Interview Questions | `Chapter_18_Async_Await/166_IQ.js` |
 | Advanced Login | `Chapter_18_Async_Await/167_Advance_Login.js` |
 | Async/Await Notes | `Chapter_18_Async_Await/Tobe_rememembered.md` |
-| Playwright Setup | `Chapter_19_Playwright_Basics/package.json` |
+| Playwright Basics | `Chapter_19_Playwright_Basics/package.json` |
 
 ---
 
@@ -556,3 +557,4 @@ Quick highlights:
 ---
 
 Happy Coding!
+
