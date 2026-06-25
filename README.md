@@ -200,9 +200,19 @@ Basics/
 │   ├── 167_Advance_Login.js        # Advanced login with async
 │   └── Tobe_rememembered.md        # Async/await key concepts
 │
-├── Chapter_19/
-    ├── package.json                # Playwright dependency
-    ├── node_modules/               # Installed packages
+├── Chapter_19_Playwright_Basics/
+│   ├── package.json                # Playwright dependency
+│   └── node_modules/               # Installed packages
+│
+├── Chapter_20_TypeScript_Basics/
+│   ├── Export_Import/
+│   │   ├── 168_Export_Import.js    # Named import example
+│   │   └── 170_Logger.js          # Default import example
+│   ├── 169_Utils.js               # Named import with aliasing
+│   ├── default.md                 # Default vs Named exports cheatsheet
+│   ├── logger.js                  # Default + named export example
+│   ├── testutils.js               # Named exports (BASE_URL, formatTestName)
+│   └── utils.js                   # Named exports (BASE_URL, formatUppercaseSting)
 ```
 
 ---
@@ -369,6 +379,14 @@ node Chapter_03_Identifier_literals/Identifier_Rules_Examples.js
 - Ready for browser automation and end-to-end testing
 - Includes test-results output for Playwright test runs
 
+### Chapter 20: TypeScript / ES Modules (Export & Import)
+- Named exports and imports with `export` / `import { ... }`
+- Default exports with `export default` and import without braces
+- Import aliasing with `as` to avoid name collisions
+- Combining named and default exports in a single file
+- Common mistakes: braces on default imports, missing braces on named imports
+- Real-world examples: API URL configs, logger utilities, test name formatters
+
 ---
 
 ## Topics Covered
@@ -530,6 +548,13 @@ node Chapter_03_Identifier_literals/Identifier_Rules_Examples.js
 | Advanced Login | `Chapter_18_Async_Await/167_Advance_Login.js` |
 | Async/Await Notes | `Chapter_18_Async_Await/Tobe_rememembered.md` |
 | Playwright Basics | `Chapter_19_Playwright_Basics/package.json` |
+| Named Import Example | `Chapter_20_TypeScript_Basics/Export_Import/168_Export_Import.js` |
+| Named Import with Aliasing | `Chapter_20_TypeScript_Basics/169_Utils.js` |
+| Default Import Example | `Chapter_20_TypeScript_Basics/Export_Import/170_Logger.js` |
+| Named Exports (utils) | `Chapter_20_TypeScript_Basics/utils.js` |
+| Named Exports (testutils) | `Chapter_20_TypeScript_Basics/testutils.js` |
+| Default + Named Export (logger) | `Chapter_20_TypeScript_Basics/logger.js` |
+| Default vs Named Cheatsheet | `Chapter_20_TypeScript_Basics/default.md` |
 
 ---
 
